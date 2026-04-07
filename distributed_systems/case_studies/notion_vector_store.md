@@ -135,19 +135,9 @@ Serverless embeddings continued to be used:
 
 ---
 
-## 6. Final Takeaway
-
-Notion’s AI Q&A infrastructure evolved from a pod-based, sharded vector database
-that struggled under explosive growth, through survival-driven mitigations
-(generation IDs and serverless embeddings), to a fundamentally more scalable
-architecture with turbopuffer. The final system removes fixed shard capacity as
-a constraint, making workspace growth—new or existing—a routine, uneventful
-operation.
-
-The progression is a textbook example of:
-**decoupling compute first, then decoupling storage.**
-
-## Ascii version
+## 6. Ascii version
+<details>
+<summary>ASCII version of the text above for easy reference </summary>
 
 ```text
 ====================================================================
@@ -293,6 +283,17 @@ Final state:
 - No re‑sharding
 - No generation sprawl
 - Workspace growth is boring (good)
-
-
 ```
+</details>
+
+## 7. Final Takeaway
+
+Notion’s AI Q&A infrastructure evolved from a pod-based, sharded vector database
+that struggled under explosive growth, through survival-driven mitigations
+(generation IDs and serverless embeddings), to a fundamentally more scalable
+architecture with turbopuffer. The final system removes fixed shard capacity as
+a constraint, making workspace growth—new or existing—a routine, uneventful
+operation.
+
+The progression is a textbook example of:
+**decoupling compute first, then decoupling storage.**
