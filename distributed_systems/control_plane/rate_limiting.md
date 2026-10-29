@@ -25,3 +25,5 @@ Based on the ByteByteGo "Design a Rate Limiter" chapter content on this page, he
 
 ## Reference
 https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter
+
+Also see : https://github.com/forkedroads/Notes/blob/main/distributed_systems/case_studies/uber_rate_limiter.md
